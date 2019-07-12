@@ -1,0 +1,46 @@
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0066ff;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background-image: url("http://newwestcharter.org/wp-content/uploads/2018/08/nwc-hs-205A4610-2340px.jpg");
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+}
+
+li {
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    background-color: #2e528c;
+    color: white;
+}

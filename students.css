@@ -1,0 +1,98 @@
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0066ff;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background-image: url("https://www.pearsoned.com/wp-content/uploads/College-students-working-in-groups-on-computer-projects.jpg");
+    background-repeat: no-repeat;
+    background-position: 0% -5%;
+}
+
+li {
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    background-color: #2e528c;
+    color: white;
+}
+
+h1 {
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.classes {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.classestxt {
+    text-align: center;
+}
+
+.classes a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    width: 8000px;
+}
+
+.grades a {
+    padding: 12px 16px;
+    margin-left: 550px;
+    position: absolute;
+    top: 10px;
+}
+
+.classes a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .classes {
+    display: block;
+}
